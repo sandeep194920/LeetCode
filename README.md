@@ -1,1 +1,3 @@
 We solve [leetcode](https://leetcode.com/) questions here. Each question might have multiple approaches, and the approach name will be the file name inside each question. Every question will have it's own readme file and explanation. At the end of each question name we will denote the difficulty level of the problem.
+
+We will solve the problems in order of the best roadmaps. One of the roadmaps currently we are solving is given by [neetcode](https://neetcode.io/roadmap). The questions in the roadmap are arranged topicwise and it's around 150 questions. This will cover all the topics from Arrays to advanced topics like Dynamic programming.
