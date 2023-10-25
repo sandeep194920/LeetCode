@@ -10,5 +10,6 @@ const containsDuplicate = (nums) => {
 }
 
 const nums = [1, 2, 3, 1]
+// const nums = [1, 2, 3, 1]
 const result = containsDuplicate(nums)
 console.log(result)
