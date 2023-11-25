@@ -23,13 +23,13 @@ class Solution:
                     if frequency[s[i]] == 0:
                         count -= 1
                     i += 1
-
-                if count == k:
-                    j += 1
+                j += 1
 
         return maximum
 
 
 # result = Solution().longestSubstring(s="aabacbebebe", k=3)
-result = Solution().longestSubstring(s="hnxnounsapgerhquorqvplxnohltjuusticazitmwdyaxyxmdfziierhtbjpuohswfwcknticshuzoltcqffyoptyjcnfrfkavauceavhmjzdwdaquewtiidnkywpmecwkilefwsdwiqqmrlrnswnkzoqajkltetleapwbpiyorsbvbnupzrquvsaanojtjczkhxsmzuvydsqwwuhepytimcucmpzcooqlsrzonybiurawiplzyypiknbcwqokuqbhscozwhbswwcicqfiutryagpgpujgdnaxfgaekteqonegayfzhsyaawgidgtcteldnsgrzrecanhtyiueprgracdhxfhdofopwzodcljwyoiynxfpzdarnqljyaznfzqbqdwmvkqfauzrdqxsakjcjprlwzdjnhotgavhwlqnbeoryscfxzkpflhendmrbwybkfkacsniijuinooekrhhvlngkorxapsegsnxvtsgfliifeqvxtvjznhzfeszxjgqsufrbxsdclfrfhbpzuumyqrzycizvnbilwdtpmxxxplahclgpwcocnjemrncrjnlfjppapwqvbvfbcjlogpdfgmdtduymywjgmzwqhqnskinzosjgukkcqjztpkaaapqcsiofldfgrcfddaehxlddvfqfrngdunepshzpgeolvmjeeaibpwviuqvliwlueuvmbzbsrhvfrymslvqqzypevfaqiojbjaeixlsxrzklzhjnrvcgmgtwxgfyqacaciocfjmzrdfefobdlxdnkqtwvcetdstqjaxionfethglsxpvyubtesemqqnkgkqxpwecjajuasayaujqvipgolaaxwqvihkxowvtzpkxbgtvwkisjzxvvteiensnfublnfchptditogxpfchjqrvvoyu",k=14)
+result = Solution().longestSubstring(
+    s="hnxnounsapgerhquorqvplxnohltjuusticazitmwdyaxyxmdfziierhtbjpuohswfwcknticshuzoltcqffyoptyjcnfrfkavauceavhmjzdwdaquewtiidnkywpmecwkilefwsdwiqqmrlrnswnkzoqajkltetleapwbpiyorsbvbnupzrquvsaanojtjczkhxsmzuvydsqwwuhepytimcucmpzcooqlsrzonybiurawiplzyypiknbcwqokuqbhscozwhbswwcicqfiutryagpgpujgdnaxfgaekteqonegayfzhsyaawgidgtcteldnsgrzrecanhtyiueprgracdhxfhdofopwzodcljwyoiynxfpzdarnqljyaznfzqbqdwmvkqfauzrdqxsakjcjprlwzdjnhotgavhwlqnbeoryscfxzkpflhendmrbwybkfkacsniijuinooekrhhvlngkorxapsegsnxvtsgfliifeqvxtvjznhzfeszxjgqsufrbxsdclfrfhbpzuumyqrzycizvnbilwdtpmxxxplahclgpwcocnjemrncrjnlfjppapwqvbvfbcjlogpdfgmdtduymywjgmzwqhqnskinzosjgukkcqjztpkaaapqcsiofldfgrcfddaehxlddvfqfrngdunepshzpgeolvmjeeaibpwviuqvliwlueuvmbzbsrhvfrymslvqqzypevfaqiojbjaeixlsxrzklzhjnrvcgmgtwxgfyqacaciocfjmzrdfefobdlxdnkqtwvcetdstqjaxionfethglsxpvyubtesemqqnkgkqxpwecjajuasayaujqvipgolaaxwqvihkxowvtzpkxbgtvwkisjzxvvteiensnfublnfchptditogxpfchjqrvvoyu",
+    k=14)
 print(result)
